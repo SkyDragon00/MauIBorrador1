@@ -1,0 +1,30 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauIBorrador1.MainPage"
+             BackgroundColor="#CEE3F6">
+    <!-- Código de color para un azul claro -->
+
+    <ScrollView>
+        <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+            <!-- Logotipo como título -->
+            <Image Source="logo.png" HeightRequest="600" WidthRequest="500" Aspect="AspectFit"/>
+
+            <!-- Separador (opcional) -->
+            <BoxView HeightRequest="20" Color="Transparent"/>
+
+            <!-- Filas de imágenes u otro contenido -->
+            <FlexLayout Direction="Row" AlignItems="Center" JustifyContent="SpaceEvenly">
+                <Image Source="router1.jpg" HeightRequest="300" WidthRequest="300" Aspect="AspectFit"/>
+                <Image Source="router2.jpg" HeightRequest="300" WidthRequest="300" Aspect="AspectFit"/>
+            </FlexLayout>
+
+            <FlexLayout Direction="Row" AlignItems="Center" JustifyContent="SpaceEvenly">
+                <Image Source="fibraoptica.jpg" HeightRequest="300" WidthRequest="300" Aspect="AspectFit" Margin="0,100,0,0"/>
+                <Image Source="dotnet_bot.svg" HeightRequest="300" WidthRequest="300" Aspect="AspectFit"/>
+            </FlexLayout>
+
+
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>
